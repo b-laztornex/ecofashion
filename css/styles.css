@@ -1,0 +1,210 @@
+ul{
+  display:flex;  
+  list-style:none;
+}
+
+.carousel-inner.vertical {
+  height: 100%; /*Note: set specific height here if not, there will be some issues with IE browser*/
+}
+
+.carousel-inner.vertical > .item {
+  -webkit-transition: 3s ease-in-out top;
+  -o-transition: 3s ease-in-out top;
+  transition: 3s ease-in-out top;
+}
+  
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+  .carousel-inner.vertical > .item {
+    -webkit-transition: -webkit-transform .6s ease-in-out;
+    -o-transition: -o-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+  }
+  .carousel-inner.vertical > .item.next,
+  .carousel-inner.vertical > .item.active.right {
+    -webkit-transform: translate3d(0, 33.33%, 0);
+    transform: translate3d(0, 33.33%, 0);
+    top: 0;
+  }
+  .carousel-inner.vertical > .item.prev,
+  .carousel-inner.vertical > .item.active.left {
+    -webkit-transform: translate3d(0, -33.33%, 0);
+    transform: translate3d(0, -33.33%, 0);
+    top: 0;
+  }
+  .carousel-inner.vertical > .item.next.left,
+  .carousel-inner.vertical > .item.prev.right,
+  .carousel-inner.vertical > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    top: 0;
+  }
+}
+  
+.carousel-inner.vertical > .active {
+  top: 0;
+}
+.carousel-inner.vertical > .next,
+.carousel-inner.vertical > .prev {
+  top: 0;
+  height: 100%;
+  width: auto;
+}
+.carousel-inner.vertical > .next {
+  left: 0;
+  top: 33.33%;
+  right:0;
+}
+.carousel-inner.vertical > .prev {
+  left: 0;
+  top: -33.33%;
+  right:0;
+}
+.carousel-inner.vertical > .next.left,
+.carousel-inner.vertical > .prev.right {
+  top: 0;
+}
+.carousel-inner.vertical > .active.left {
+  left: 0;
+  top: -33.33%;
+  right:0;
+}
+.carousel-inner.vertical > .active.right {
+  left: 0;
+  top: 33.33%;
+  right:0;
+}
+
+#carousel-pager .carousel-control.left {
+    bottom: initial;
+    width: 100%;
+}
+#carousel-pager .carousel-control.right {
+    top: initial;
+    width: 100%;
+}
+
+/*FIn carrusel*/
+
+
+
+h2.videosc{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: indie flower;
+}
+.title-arch {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.aligncenter{
+text-align: center;
+}
+.project {
+    width: 80%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    padding: 0 !important;
+    margin-left: 30px;
+    margin-top: 30px;
+    float:left;
+    }
+
+.project-1{
+    background-image: url(https://i.pinimg.com/736x/11/42/a3/1142a3ec6ee67bb0adb5a5f7c06f7824.jpg);
+}
+    
+.project-2 {
+    background-image: url(https://res.cloudinary.com/focloud/image/upload/c_scale,f_auto,fl_lossy,h_600,w_600/v1/FrauenOutfits.de/06031912_1551871822BusinessCasual.png.jpg);
+    }
+    
+.project-3 {
+    background-image: url(http://stylesweekly.com/wp-content/uploads/2017/04/15-chic-casual-outfit-ideas-to-copy-rightnow.jpg);
+    }
+
+.project-4 {
+    background-image: url(https://res.cloudinary.com/focloud/image/upload/c_scale,f_auto,fl_lossy,h_600,w_600/v1/FrauenOutfits.de/1532374967_eo-f-4.jpg.jpg);
+    }
+
+.project-5 {
+    background-image: url(https://i.pinimg.com/originals/2d/39/fb/2d39fbd8fd14e19be1ab49455e498b39.jpg);
+    }
+
+.project-6 {
+    background-image: url(https://i.pinimg.com/originals/ee/f4/fd/eef4fdcdbbcd72b95abdca2c8f791bba.jpg);
+    }
+
+
+.project-hover {
+width: 100%;
+height: 100%;
+color: #fff;
+opacity: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: rgba(141, 105, 38, 0.534);
+padding: 40% 30px !important;
+}
+
+.project-hover hr {
+height: 30px;
+width: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: rgb(228, 197, 141);
+border: 0;
+}
+
+.project-hover a {
+color: rgba(255, 255, 255, 1);
+padding: 2px 22px;
+line-height: 40px;
+border: 2px solid rgba(255, 255, 255, 1);
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+.project-hover a:hover {
+border-color: rgba(51, 51, 51, 1);
+color: rgba(51, 51, 51, 1);
+background: rgb(253, 227, 206);
+}
+
+.project:hover .project-hover {
+opacity: 1;
+}
+
+.project:hover .project-hover hr {
+width: 100%;
+height: 5px;
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#copyright {
+    margin-top: 50px;
+    text-align: center;
+    opacity: 50%;
+    background: rgb(253, 227, 206);
+    padding: 1em;
+  }
+
