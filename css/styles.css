@@ -3,6 +3,7 @@
   z-index: 10;
   width: 100%;
   height: 130px;
+  background: rgb(253, 227, 206);
 }
 
 .carousel-inner.vertical {
@@ -123,27 +124,27 @@ text-align: center;
     }
 
 .project-1{
-    background-image: url(https://i.pinimg.com/736x/11/42/a3/1142a3ec6ee67bb0adb5a5f7c06f7824.jpg);
+    background-image: url(https://res.cloudinary.com/focloud/image/upload/c_scale,f_auto,fl_lossy,h_600,w_600/v1/FrauenOutfits.de/22081901_1566474523BusinessOutfit.png.jpg);
 }
     
 .project-2 {
-    background-image: url(https://res.cloudinary.com/focloud/image/upload/c_scale,f_auto,fl_lossy,h_600,w_600/v1/FrauenOutfits.de/06031912_1551871822BusinessCasual.png.jpg);
+    background-image: url(https://i.pinimg.com/originals/12/41/50/124150bb5e039b0724281fa1a48b08d1.jpg);
     }
     
 .project-3 {
-    background-image: url(http://stylesweekly.com/wp-content/uploads/2017/04/15-chic-casual-outfit-ideas-to-copy-rightnow.jpg);
+    background-image: url(https://www.outfits4you.de/wp-content/uploads/2018/03/gruen-schwarz-outfit-damen-elegant-kleid.jpg);
     }
 
 .project-4 {
-    background-image: url(https://res.cloudinary.com/focloud/image/upload/c_scale,f_auto,fl_lossy,h_600,w_600/v1/FrauenOutfits.de/1532374967_eo-f-4.jpg.jpg);
+    background-image: url(https://i.pinimg.com/originals/74/2a/55/742a5588f8d52d18ef9f02f473f8cfe8.jpg);
     }
 
 .project-5 {
-    background-image: url(https://i.pinimg.com/originals/2d/39/fb/2d39fbd8fd14e19be1ab49455e498b39.jpg);
+    background-image: url(https://res.cloudinary.com/focloud/image/upload/c_scale,f_auto,fl_lossy,h_600,w_600/v1/FrauenOutfits.de/24071910_1563957196BodyEssentialsPyjama.png.jpg);
     }
 
 .project-6 {
-    background-image: url(https://i.pinimg.com/originals/ee/f4/fd/eef4fdcdbbcd72b95abdca2c8f791bba.jpg);
+    background-image: url(https://dsuu72ioj2ytt.cloudfront.net/outfit/8f609be1efd903584d8f0842402eb3806a3bab8c_nike-lady-sport-outfit.jpg);
     }
 
 
