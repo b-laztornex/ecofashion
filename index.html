@@ -10,13 +10,15 @@
   <meta name="author" content="SitePoint">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Indie Flower" rel="stylesheet" type="text/css">
-
   <link rel="stylesheet" href="css/styles.css?v=1.0">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Delius" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Delius Swash Caps" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -46,15 +48,25 @@
     <img src="img/logo.PNG" height="120"/>
   </nav>
 
+  <section id="welcome-section">
+    <div class="container-fluid">
+      <div class="title-arch"><p></p>Mode Inspiration<br>Outfits zusammenstellen leicht gemacht!.</p><p>Style Guide für besondere Anlässe</p></div>
+    </div>
+  </section>
+
+  <section id="uns">
+    <div class="container-fluid">
+        <img src="img/logo.PNG">
+    </div>
+  </section>
+
   <section id="projects">
     <div class="container-fluid">
-      <div class="title-arch">Mode Inspiration<p>Outfits zusammenstellen leicht gemacht!.</p><p>Style Guide für besondere Anlässe</p></div>
         <div class="row">
           <div class="col-1"></div>
           <div class="col-3 project project-1 wow animated animated4 fadeInLeft">
               <div class="project-hover">
                 <h2>Business Looks</h2>
-                  
                   <hr />
                   <p>Die perfekten Business Outfits bestehen nicht immer nur aus einem schlichten Hosenanzug und einer langweiligen Bluse. Auch im Alltag, auf der Betriebsfeier oder sogar bei einem Vorstellungsgespräch kannst du ein wenig experimentieren und moderne und auffällige Kleidungsstücke tragen, die dich zum Blickfang des Moments machen. Beachte einfach ein paar kleine Regeln und mach zu jedem Anlass eine gute Figur, begeistere deine Kollegen und Chefs und trete selbstbewusst auf.</p>
                   <a href="#">Outfit-Inspiration</a>
@@ -111,7 +123,7 @@
       </div>
   </section>
 
-  <section id="project-1-detail" class="d-none details"> <!--Seccion de deportes -->
+  <section id="project-1-detail" class="d-none details"> <!--Business-->
     <div class="container-fluid">
       <div class="row position-relative">
   <div class="col-md-1">
@@ -128,10 +140,10 @@
                   <img src="https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/205693c3_5550.jpg" class="img-responsive" data-target="#carousel-main" data-slide-to="2">
               </div>
               <div class="item">
-                <img src="https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/b5cd8864_47b4.jpg" class="img-responsive" data-target="#carousel-main" data-slide-to="2">
+                <img src="https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/b5cd8864_47b4.jpg" class="img-responsive" data-target="#carousel-main" data-slide-to="3">
             </div>
             <div class="item">
-              <img src="https://www.avesu.de/media/catalog/product/cache/rw/image/vegane-handtasche-matt-nat-tia-black-5.jpg" class="img-responsive" data-target="#carousel-main" data-slide-to="2">
+              <img src="https://www.avesu.de/media/catalog/product/cache/rw/image/vegane-handtasche-matt-nat-tia-black-5.jpg" class="img-responsive" data-target="#carousel-main" data-slide-to="4">
           </div>
           </div>
           <!-- Controls -->
@@ -160,13 +172,12 @@
           </div>
           <div class="item">
             <img src="https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/b5cd8864_47b4.jpg" class="img-responsive">
-        </div>
-        <div class="item">
+          </div>
+          <div class="item">
           <img src="https://www.avesu.de/media/catalog/product/cache/rw/image/vegane-handtasche-matt-nat-tia-black-5.jpg" class="img-responsive">
-      </div>
-        </div>
-      </div>
-
+          </div>
+     </div>
+    </div>
       <!-- Controls -->
       <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -179,7 +190,7 @@
   </div>
   
   <div class="col-2">
-          <h3>Sport Look:</h3>
+          <h3 class="estilo">Business Look:</h3>
           <p>Pants Moss Collage Leaves</p>
           <p>Price:79.95 EUR</p>
           <p><a href="https://www.dedicatedbrand.com/de/women/pants-and-shorts/pants-moss-collage-leaves">Zu Shop</a></p>
@@ -202,81 +213,134 @@
 </div>
   </section>
 
-  <section id="project-2-detail" class="d-none details"> 
+  <section id="project-2-detail" class="d-none details"> <!--Casual-->
     <div class="container-fluid">
       <div class="row position-relative">
         <div class="col-6">
-          <h3>IMG:</h3> <!--Insertar imagen del item-->
-        </div>
-        <div class="col-6">
-          <h3>Details Sport:</h3>
-          <p>SHOES</p>
-          <p>Price:300$</p>
+          <h3 class="estilo">Casual Look:</h3>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
         </div>
         <div class="close">X</div>
       </div>
     </div>
   </section>
 
-  <section id="project-3-detail" class="d-none details"> 
+  <section id="project-3-detail" class="d-none details"> <!--Dinner-->>
     <div class="container-fluid">
       <div class="row position-relative">
         <div class="col-6">
-          <h3>IMG:</h3> <!--Insertar imagen del item-->
-        </div>
-        <div class="col-6">
-          <h3>Details Sport:</h3>
-          <p>SHOES</p>
-          <p>Price:300$</p>
+          <h3 class="estilo">Dinner Look:</h3>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
         </div>
         <div class="close">X</div>
       </div>
     </div>
   </section>
 
-  <section id="project-4-detail" class="d-none details"> 
+  <section id="project-4-detail" class="d-none details"> <!--Party-->>
     <div class="container-fluid">
       <div class="row position-relative">
         <div class="col-6">
-          <h3>IMG:</h3> <!--Insertar imagen del item-->
+          <h3 class="estilo">Party Look:</h3>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
         </div>
-        <div class="col-6">
-          <h3>Details Sport:</h3>
-          <p>SHOES</p>
-          <p>Price:300$</p>
-        </div>
+        
         <div class="close">X</div>
       </div>
     </div>
   </section>
 
-  <section id="project-5-detail" class="d-none details"> 
+  <section id="project-5-detail" class="d-none details"> <!--Home-->>
     <div class="container-fluid">
       <div class="row position-relative">
         <div class="col-6">
-          <h3>IMG:</h3> <!--Insertar imagen del item-->
+          <h3 class="estilo">Home Look:</h3>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
         </div>
-        <div class="col-6">
-          <h3>Details Sport:</h3>
-          <p>SHOES</p>
-          <p>Price:300$</p>
-        </div>
+        
         <div class="close">X</div>
       </div>
     </div>
   </section>
 
-  <section id="project-6-detail" class="d-none details"> 
+  <section id="project-6-detail" class="d-none details"> <!--Sport-->>
     <div class="container-fluid">
       <div class="row position-relative">
         <div class="col-6">
-          <h3>IMG:</h3> <!--Insertar imagen del item-->
+          <h3 class="estilo">Sport Look:</h3>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
+          <p></p>
+          <p>Price: EUR</p>
+          <p><a href="">Zu Shop</a></p>
         </div>
-        <div class="col-6">
-          <h3>Details Sport:</h3>
-          <p>SHOES</p>
-          <p>Price:300$</p>
-        </div>
+        
         <div class="close">X</div>
       </div>
     </div>

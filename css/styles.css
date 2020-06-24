@@ -4,6 +4,11 @@
   width: 100%;
   height: 130px;
   background: rgb(253, 227, 206);
+  font-family: Delius Swash Caps;
+}
+
+.navbar-hover{
+  background-color: rgba(141, 105, 38, 0.534);
 }
 
 .carousel-inner.vertical {
@@ -99,7 +104,7 @@ h2.videosc{
     margin-top: 50px;
     margin-bottom: 10px;
     text-align: center;
-    font-family: indie flower;
+    font-family: Delius Swash Caps;
 }
 .title-arch {
     text-align: center;
@@ -107,6 +112,7 @@ h2.videosc{
     font-size: 22px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-family: Delius Swash Caps;
 }
 
 .aligncenter{
@@ -114,13 +120,14 @@ text-align: center;
 }
 .project {
     width: 80%;
-    height: 600px;
+    height: 650px;
     background-size: cover;
     background-position: center;
     padding: 0 !important;
     margin-left: 30px;
     margin-top: 30px;
     float:left;
+    font-family: Delius Swash Caps;
     }
 
 .project-1{
@@ -195,7 +202,7 @@ opacity: 1;
 
 .project:hover .project-hover hr {
 width: 100%;
-height: 5px;
+height: 3px;
 }
 
 .close{
@@ -211,5 +218,11 @@ height: 5px;
     padding: 1em;
   }
 
+p {
+  font-family: Delius;
+  font-size: 18px;
+}
 
-
+h3.estilo {
+  font-family: Delius Swash Caps;
+}
