@@ -239,6 +239,7 @@ height: 3px;
     right: 10px;
 }
 #copyright {
+  text-size: 15px;
     margin-top: 50px;
     text-align: center;
     opacity: 50%;
