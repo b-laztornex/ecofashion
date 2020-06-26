@@ -12,12 +12,14 @@
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #95cc7c;
+  opacity:0.8;
 }
 
 #uns{
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #ccac7c;
+  opacity:0.8;
 }
 
 #projects{
@@ -29,6 +31,7 @@
   padding-top: 100px;
   padding-bottom: 100px;
   background: rgb(133, 168, 128);
+  opacity:0.8;
 
 }
 
@@ -289,7 +292,9 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background: rgb(197, 235, 191);
+
+  background: rgb(147, 180, 141);
+
   padding: 20px;
   margin-top:  20px;
 }
